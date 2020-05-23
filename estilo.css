@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background: rgb(70, 142, 236);
   font: normal 15pt Arial;
@@ -11,7 +10,6 @@ body {
   width: 100%;
   height: 100%;
 }
-
 header {
   margin-top: 50px;
   width: 100%;
@@ -21,7 +19,6 @@ header {
   border-radius: 10px;
   color: white;
 }
-
 #content {
   display: flex;
   justify-content: center;
@@ -33,13 +30,11 @@ header {
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
-
 .form {
   display: flex;
   border-radius: 10px;
   margin: 10px 10px 10px 10px;
 }
-
 .birth {
   display: flex;
   border-radius: 10px;
@@ -47,14 +42,12 @@ header {
   flex-wrap: wrap;
   align-content: space-between;
 }
-
 .gender {
   border-radius: 10px;
   margin: 10px 10px 10px 10px;
   flex-wrap: wrap;
   align-content: space-between;
 }
-
 .content,
 .res {
   border-radius: 10px;
@@ -64,18 +57,15 @@ header {
   justify-content: center;
   flex-direction: column;
 }
-
 .content,
 #photo {
   width: 133px;
   height: 133px;
 }
-
 footer {
   display: flex;
   justify-content: center;
 }
-
 .copyright {
   font: 1em sans-serif 2px;
   font-style: italic;
