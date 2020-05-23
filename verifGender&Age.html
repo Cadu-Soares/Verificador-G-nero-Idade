@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+  <title>Verificador de Gênero e Idade</title>
+  <link rel="stylesheet" href="./css/estilo.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Verificador de Gênero e Idade</h1>
+  </header>
+  <div id="content">
+    <!--Início do Container-->
+    <div class="Form">
+      <form class="formulary" action="">
+        <div class="birth">
+          <p>Ano de Nascimento:</p>
+          <label class="birth" for=""></label>
+          <input id="txtyear" type="number" name="txtyear" min="0" />
+          </p>
+        </div>
+        <div class="gender">
+          <p>Sexo:
+            <input type="radio" name="radsex" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="radsex" id="fem">
+            <label for="fem">Feminino</label>
+          </p>
+          <div>
+            <p>
+              <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="res">Por favor, preencha os dados acima!
+      <div id='img'>
+        <img id="photo" src="" alt="">
+      </div>
+    </div>
+
+  </div>
+  <!--fim do conteúdo-->
+
+  <footer>
+    <!--Rodapé-->
+    <p class="copyright">&copy; 2020 Dev Cadu Soares</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
